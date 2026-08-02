@@ -1,0 +1,101 @@
+EMP_ID|EMP_NAME|DEPARTMENT|DESIGNATION|LOCATION|SALARY|BONUS|EMAIL|PHONE|STATUS
+1001|Employee_1001|HR|Analyst|Chennai|62098|4657|employee1001@company.com|98249827706|ACTIVE
+1002|Employee_1002|Support|Analyst|Pune|34165|1488|employee1002@company.com|98200604502|ACTIVE
+1003|Employee_1003|IT|Analyst|Bangalore|115181|9928|employee1003@company.com|98550455977|ACTIVE
+1004|Employee_1004|Sales|Lead|Hyderabad|50926|7924|employee1004@company.com|98465341213|INACTIVE
+1005|Employee_1005|IT|Senior Analyst|Chennai|43396|2519|employee1005@company.com|98507943839|ACTIVE
+1006|Employee_1006|Finance|Lead|Chennai|35695|8527|employee1006@company.com|98675770529|ACTIVE
+1007|Employee_1007|Sales|Analyst|Chennai|112397|6925|employee1007@company.com|98719927151|ACTIVE
+1008|Employee_1008|HR|Analyst|Bangalore|67930|2307|employee1008@company.com|98349957310|ACTIVE
+1009|Employee_1009|Sales|Lead|Pune|113320|6977|employee1009@company.com|98274648506|INACTIVE
+1010|Employee_1010|Finance|Senior Analyst|Chennai|119593|2169|employee1010@company.com|98754049436|ACTIVE
+1011|Employee_1011|Support|Senior Analyst|Bangalore|90589|7216|employee1011@company.com|98389854268|ACTIVE
+1012|Employee_1012|Finance|Analyst|Bangalore|34207|6168|employee1012@company.com|98530747414|INACTIVE
+1013|Employee_1013|HR|Senior Analyst|Chennai|57869|9179|employee1013@company.com|98524806516|INACTIVE
+1014|Employee_1014|IT|Lead|Bangalore|62325|9830|employee1014@company.com|98382116655|INACTIVE
+1015|Employee_1015|Support|Manager|Chennai|58746|3266|employee1015@company.com|98647099690|INACTIVE
+1016|Employee_1016|HR|Analyst|Hyderabad|50033|3621|employee1016@company.com|98950488739|INACTIVE
+1017|Employee_1017|Support|Analyst|Pune|80019|8668|employee1017@company.com|98668132202|INACTIVE
+1018|Employee_1018|Support|Analyst|Hyderabad|119353|9797|employee1018@company.com|98906248900|INACTIVE
+1019|Employee_1019|Finance|Analyst|Chennai|86985|3591|employee1019@company.com|98587182120|ACTIVE
+1020|Employee_1020|Finance|Senior Analyst|Hyderabad|111959|5889|employee1020@company.com|98786066793|ACTIVE
+1021|Employee_1021|IT|Lead|Bangalore|100697|9689|employee1021@company.com|98100614068|INACTIVE
+1022|Employee_1022|Sales|Analyst|Hyderabad|77576|6038|employee1022@company.com|98357109965|ACTIVE
+1023|Employee_1023|IT|Analyst|Hyderabad|93699|2133|employee1023@company.com|98916690353|ACTIVE
+1024|Employee_1024|IT|Manager|Bangalore|64741|9645|employee1024@company.com|98751325257|INACTIVE
+1025|Employee_1025|IT|Senior Analyst|Chennai|82296|7118|employee1025@company.com|98570406376|INACTIVE
+1026|Employee_1026|HR|Senior Analyst|Bangalore|38392|6539|employee1026@company.com|98122585366|ACTIVE
+1027|Employee_1027|Support|Senior Analyst|Hyderabad|39305|1964|employee1027@company.com|98345824373|ACTIVE
+1028|Employee_1028|HR|Lead|Hyderabad|97391|4899|employee1028@company.com|98399012686|INACTIVE
+1029|Employee_1029|IT|Senior Analyst|Pune|61850|8749|employee1029@company.com|98967043303|INACTIVE
+1030|Employee_1030|IT|Analyst|Hyderabad|116374|8062|employee1030@company.com|98480424119|INACTIVE
+1031|Employee_1031|Sales|Manager|Hyderabad|118259|2612|employee1031@company.com|98165082363|INACTIVE
+1032|Employee_1032|Finance|Analyst|Bangalore|55112|4116|employee1032@company.com|98675832441|INACTIVE
+1033|Employee_1033|IT|Manager|Bangalore|66509|8579|employee1033@company.com|98368227631|ACTIVE
+1034|Employee_1034|Sales|Analyst|Hyderabad|115477|9856|employee1034@company.com|98997677788|ACTIVE
+1035|Employee_1035|HR|Senior Analyst|Bangalore|83269|8956|employee1035@company.com|98616854671|ACTIVE
+1036|Employee_1036|Sales|Analyst|Bangalore|79672|1035|employee1036@company.com|98519212169|INACTIVE
+1037|Employee_1037|Sales|Lead|Pune|102845|8973|employee1037@company.com|98266211829|ACTIVE
+1038|Employee_1038|Finance|Senior Analyst|Hyderabad|105914|9883|employee1038@company.com|98165452690|INACTIVE
+1039|Employee_1039|HR|Analyst|Pune|95909|9701|employee1039@company.com|98269042105|ACTIVE
+1040|Employee_1040|Support|Analyst|Bangalore|38981|2113|employee1040@company.com|98825003955|ACTIVE
+1041|Employee_1041|Sales|Analyst|Bangalore|105880|1651|employee1041@company.com|98765055833|ACTIVE
+1042|Employee_1042|Sales|Lead|Chennai|56772|6147|employee1042@company.com|98356287095|INACTIVE
+1043|Employee_1043|Sales|Senior Analyst|Chennai|89929|6180|employee1043@company.com|98907308348|ACTIVE
+1044|Employee_1044|HR|Manager|Hyderabad|39602|9808|employee1044@company.com|98328872698|INACTIVE
+1045|Employee_1045|IT|Lead|Hyderabad|62018|7054|employee1045@company.com|98406002884|ACTIVE
+1046|Employee_1046|Sales|Lead|Hyderabad|117538|5905|employee1046@company.com|98812308209|ACTIVE
+1047|Employee_1047|IT|Lead|Hyderabad|44029|3546|employee1047@company.com|98392431670|INACTIVE
+1048|Employee_1048|Support|Senior Analyst|Chennai|56685|5325|employee1048@company.com|98642678844|INACTIVE
+1049|Employee_1049|Finance|Analyst|Hyderabad|113136|7939|employee1049@company.com|98990505735|INACTIVE
+1050|Employee_1050|HR|Analyst|Chennai|47146|5291|employee1050@company.com|98273497327|INACTIVE
+1051|Employee_1051|Support|Manager|Hyderabad|44663|2232|employee1051@company.com|98841976666|ACTIVE
+1052|Employee_1052|Support|Analyst|Chennai|106350|3426|employee1052@company.com|98561479973|ACTIVE
+1053|Employee_1053|HR|Lead|Chennai|35229|6862|employee1053@company.com|98325567963|ACTIVE
+1054|Employee_1054|HR|Lead|Pune|111351|3532|employee1054@company.com|98354194771|ACTIVE
+1055|Employee_1055|IT|Manager|Hyderabad|53509|6442|employee1055@company.com|98940081098|INACTIVE
+1056|Employee_1056|IT|Lead|Bangalore|44168|7267|employee1056@company.com|98141580226|INACTIVE
+1057|Employee_1057|IT|Senior Analyst|Pune|75830|6000|employee1057@company.com|98981044229|ACTIVE
+1058|Employee_1058|IT|Analyst|Bangalore|82227|6378|employee1058@company.com|98399147754|ACTIVE
+1059|Employee_1059|Finance|Lead|Pune|119065|9785|employee1059@company.com|98455569462|ACTIVE
+1060|Employee_1060|HR|Lead|Bangalore|106099|5349|employee1060@company.com|98141078352|ACTIVE
+1061|Employee_1061|Support|Manager|Chennai|71114|8149|employee1061@company.com|98750911797|ACTIVE
+1062|Employee_1062|Sales|Senior Analyst|Chennai|35817|8144|employee1062@company.com|98101815992|ACTIVE
+1063|Employee_1063|Finance|Manager|Hyderabad|117062|6409|employee1063@company.com|98769108025|INACTIVE
+1064|Employee_1064|HR|Lead|Chennai|117410|7691|employee1064@company.com|98450236225|INACTIVE
+1065|Employee_1065|Finance|Senior Analyst|Bangalore|85108|7211|employee1065@company.com|98827264603|ACTIVE
+1066|Employee_1066|Support|Lead|Pune|101819|1006|employee1066@company.com|98426283245|INACTIVE
+1067|Employee_1067|IT|Manager|Chennai|90946|8238|employee1067@company.com|98574765466|ACTIVE
+1068|Employee_1068|Support|Manager|Bangalore|116356|2389|employee1068@company.com|98404713332|INACTIVE
+1069|Employee_1069|HR|Senior Analyst|Chennai|59444|4262|employee1069@company.com|98258220114|ACTIVE
+1070|Employee_1070|HR|Senior Analyst|Pune|110120|2193|employee1070@company.com|98588999385|INACTIVE
+1071|Employee_1071|Support|Senior Analyst|Pune|94799|7547|employee1071@company.com|98361976301|ACTIVE
+1072|Employee_1072|HR|Analyst|Pune|58683|3881|employee1072@company.com|98963406382|INACTIVE
+1073|Employee_1073|HR|Senior Analyst|Hyderabad|89829|3184|employee1073@company.com|98960514523|INACTIVE
+1074|Employee_1074|Support|Lead|Pune|110301|9270|employee1074@company.com|98558209399|INACTIVE
+1075|Employee_1075|IT|Manager|Pune|63972|5050|employee1075@company.com|98784683755|INACTIVE
+1076|Employee_1076|Support|Manager|Bangalore|65992|8206|employee1076@company.com|98183197117|INACTIVE
+1077|Employee_1077|IT|Lead|Chennai|71904|9849|employee1077@company.com|98186519602|ACTIVE
+1078|Employee_1078|IT|Senior Analyst|Pune|50028|4505|employee1078@company.com|98168965204|INACTIVE
+1079|Employee_1079|Sales|Lead|Pune|84496|2020|employee1079@company.com|98322086735|INACTIVE
+1080|Employee_1080|Sales|Analyst|Pune|92518|1096|employee1080@company.com|98477698143|INACTIVE
+1081|Employee_1081|Sales|Manager|Bangalore|93993|4595|employee1081@company.com|98393062061|INACTIVE
+1082|Employee_1082|Sales|Analyst|Pune|74057|7624|employee1082@company.com|98877583839|ACTIVE
+1083|Employee_1083|Sales|Senior Analyst|Hyderabad|81645|1444|employee1083@company.com|98190137896|INACTIVE
+1084|Employee_1084|IT|Manager|Bangalore|36590|5262|employee1084@company.com|98507059676|INACTIVE
+1085|Employee_1085|IT|Manager|Chennai|74236|7211|employee1085@company.com|98398775766|INACTIVE
+1086|Employee_1086|Finance|Analyst|Pune|32540|9837|employee1086@company.com|98155926488|INACTIVE
+1087|Employee_1087|IT|Analyst|Hyderabad|34067|5051|employee1087@company.com|98314061901|ACTIVE
+1088|Employee_1088|Support|Senior Analyst|Bangalore|46544|8758|employee1088@company.com|98818825964|ACTIVE
+1089|Employee_1089|Support|Senior Analyst|Pune|63586|7043|employee1089@company.com|98280162221|ACTIVE
+1090|Employee_1090|IT|Lead|Hyderabad|105849|1420|employee1090@company.com|98434961542|INACTIVE
+1091|Employee_1091|Sales|Senior Analyst|Hyderabad|107607|4978|employee1091@company.com|98209415691|INACTIVE
+1092|Employee_1092|Support|Analyst|Hyderabad|75508|9728|employee1092@company.com|98559967386|INACTIVE
+1093|Employee_1093|HR|Lead|Hyderabad|85057|9031|employee1093@company.com|98213321496|INACTIVE
+1094|Employee_1094|Finance|Manager|Bangalore|87080|3885|employee1094@company.com|98887906704|INACTIVE
+1095|Employee_1095|Support|Manager|Pune|87091|5397|employee1095@company.com|98446071904|ACTIVE
+1096|Employee_1096|HR|Lead|Pune|61963|8613|employee1096@company.com|98711871397|INACTIVE
+1097|Employee_1097|Finance|Analyst|Pune|72600|3979|employee1097@company.com|98623502759|ACTIVE
+1098|Employee_1098|Finance|Lead|Chennai|66655|5526|employee1098@company.com|98696776072|ACTIVE
+1099|Employee_1099|Support|Senior Analyst|Hyderabad|61635|7658|employee1099@company.com|98624606470|ACTIVE
+1100|Employee_1100|Sales|Manager|Pune|32260|2524|employee1100@company.com|98415933049|ACTIVE
