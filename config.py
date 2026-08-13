@@ -13,6 +13,7 @@ CONFIG_SHEET = "Config"
 
 OUTPUT_FOLDER = r"output"
 REPORT_NAME = "Comparison_Report"
+SUMMARY_REPORT_NAME = "Summary_Report"
 
 # ------------------------------
 # Logging

@@ -1,27 +1,18 @@
-"""
-Entry point for the ETL File Comparison Framework.
-"""
-
-from pathlib import Path
+"""Entry point for the ETL File Comparison Framework."""
 
 import config
-from file_reader import read_config, read_data_file
+from file_reader import read_config, read_data_file, find_latest_file
 from comparator import compare_data
-from report_generator import generate_report
+from comparison_report import generate_comparison_report
+from summary_report import generate_summary_report
 from logger import logger
 
 
 def main():
-    """
-    Reads the configuration, executes all active comparisons
-    and generates the comparison report.
-    """
-
     logger.info("ETL File Comparison Framework started.")
 
     try:
         comparison_df = read_config(config.CONFIG_FILE)
-
     except Exception as ex:
         logger.error(ex)
         return
@@ -29,34 +20,37 @@ def main():
     all_results = []
 
     for _, row in comparison_df.iterrows():
+        comparison_name = str(row["COMPARISON_NAME"]).strip()
 
         try:
-
-            comparison_name = row["COMPARISON_NAME"]
-            source_file = row["SOURCE_FILE"]
-            target_file = row["TARGET_FILE"]
-
+            configured_source_file = str(row["SOURCE_FILE"]).strip()
+            configured_target_file = str(row["TARGET_FILE"]).strip()
             file_delimiter = row["FILE_DELIMITER"]
 
             key_columns = [
                 column.strip()
-                for column in row["KEY_COLUMNS"].split(",")
+                for column in str(row["KEY_COLUMNS"]).split(",")
+                if column.strip()
             ]
+            compare_columns = str(row.get("COMPARE_COLUMNS", ""))
 
-            compare_columns = row["COMPARE_COLUMNS"]
-
-            source_path = Path(config.SOURCE_FOLDER) / source_file
-            target_path = Path(config.TARGET_FOLDER) / target_file
-
-            source_df = read_data_file(
-                source_path,
-                file_delimiter
+            # Exact filename -> exact file.
+            # Prefix/pattern -> latest matching file.
+            source_path = find_latest_file(
+                config.SOURCE_FOLDER,
+                configured_source_file
+            )
+            target_path = find_latest_file(
+                config.TARGET_FOLDER,
+                configured_target_file
             )
 
-            target_df = read_data_file(
-                target_path,
-                file_delimiter
-            )
+            # These are the actual files used by the comparison/report.
+            source_file = source_path.name
+            target_file = target_path.name
+
+            source_df = read_data_file(source_path, file_delimiter)
+            target_df = read_data_file(target_path, file_delimiter)
 
             comparison_result = compare_data(
                 source_df,
@@ -68,17 +62,23 @@ def main():
                 compare_columns
             )
 
+            comparison_result["source_file"] = source_file
+            comparison_result["target_file"] = target_file
+
             all_results.append(comparison_result)
 
+            # Generate the detailed report immediately.
+            # Only the compact result metadata is retained for the final summary.
+            generate_comparison_report(comparison_result)
+
         except Exception as ex:
-
-            logger.error(
-                f"{comparison_name}: {ex}"
-            )
-
+            logger.error(f"{comparison_name}: {ex}")
             continue
 
-    generate_report(all_results)
+    if all_results:
+        generate_summary_report(all_results)
+    else:
+        logger.warning("No comparisons completed successfully. Summary report was not generated.")
 
     logger.info("ETL File Comparison Framework completed successfully.")
 
