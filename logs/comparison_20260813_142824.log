@@ -1,0 +1,38 @@
+13-Aug-2026 14:28:24 | INFO     | Log file: logs\comparison_20260813_142824.log
+13-Aug-2026 14:28:25 | INFO     | ETL File Comparison Framework started.
+13-Aug-2026 14:28:25 | INFO     | Reading configuration file: input\comparison_config.xlsx
+13-Aug-2026 14:28:25 | INFO     | Active comparisons found: 3
+13-Aug-2026 14:28:25 | INFO     | Configuration file loaded successfully. Total Active comparisons found: 3
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Employee_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Employee_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\source_files\Employee_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 100 records from Employee_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\target_files\Employee_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 100 records from Employee_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Starting comparison: EmployeeDataValidation
+13-Aug-2026 14:28:25 | INFO     | EmployeeDataValidation completed. Source Only=5, Target Only=5, Mismatches=23, Status=FAIL
+13-Aug-2026 14:28:25 | INFO     | Generating comparison report: EmployeeDataValidation
+13-Aug-2026 14:28:25 | INFO     | Comparison report generated successfully: output\Comparison_Report_EmployeeDataValidation_20260813_142825.xlsx
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Product_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Product_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\source_files\Product_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 100 records from Product_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\target_files\Product_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 100 records from Product_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Starting comparison: ProductValidation
+13-Aug-2026 14:28:25 | INFO     | ProductValidation completed. Source Only=0, Target Only=0, Mismatches=0, Status=PASS
+13-Aug-2026 14:28:25 | INFO     | Generating comparison report: ProductValidation
+13-Aug-2026 14:28:25 | INFO     | Comparison report generated successfully: output\Comparison_Report_ProductValidation_20260813_142825.xlsx
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Orders_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Using exact file: Orders_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\source_files\Orders_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 1000 records from Orders_Source.csv
+13-Aug-2026 14:28:25 | INFO     | Reading data file: input\target_files\Orders_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Loaded 1000 records from Orders_Target.csv
+13-Aug-2026 14:28:25 | INFO     | Starting comparison: OrdersValidation
+13-Aug-2026 14:28:25 | INFO     | OrdersValidation completed. Source Only=0, Target Only=0, Mismatches=10, Status=FAIL
+13-Aug-2026 14:28:25 | INFO     | Generating comparison report: OrdersValidation
+13-Aug-2026 14:28:25 | INFO     | Comparison report generated successfully: output\Comparison_Report_OrdersValidation_20260813_142825.xlsx
+13-Aug-2026 14:28:25 | INFO     | Generating summary report.
+13-Aug-2026 14:28:25 | INFO     | Summary report generated successfully: output\Summary_Report_20260813_142825.xlsx
+13-Aug-2026 14:28:25 | INFO     | ETL File Comparison Framework completed successfully.

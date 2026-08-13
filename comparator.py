@@ -66,7 +66,10 @@ def compare_data(
         target_column = f"{column}_TARGET"
 
         mismatch_condition = (
-            common_df[source_column] != common_df[target_column]
+            (common_df[source_column] != common_df[target_column])& ~(
+                    common_df[source_column].isna()
+                    & common_df[target_column].isna()
+                    )   
         )
 
         column_mismatch_df = common_df[mismatch_condition]
